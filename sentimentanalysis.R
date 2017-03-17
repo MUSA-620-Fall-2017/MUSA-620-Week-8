@@ -13,6 +13,7 @@ library(stringr) #string manipulation
 
 library(tidytext) #for text mining
 
+library(syuzhet) #corpus
 
 regexExample <- "(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$)"
 str_detect("myemail@mydomain.com", regexExample)
@@ -132,11 +133,9 @@ android_iphone_ratios %>%
 
 iPhoneTweets <- count(tweet_words,word, source) %>%
   filter(source == 'iPhone')
-#  select(word, iPhoneCount = n)
 
 androidTweets <- count(tweet_words,word, source) %>%
   filter(source == 'Android')
-#  select(word, androidCount = n)
 
 
 iPhoneSentiment <- get_nrc_sentiment(iPhoneTweets$word)
