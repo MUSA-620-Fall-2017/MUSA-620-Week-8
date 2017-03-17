@@ -5,7 +5,7 @@ An overview of text mining ([notes](https://github.com/MUSA-620-Fall-2017/MUSA-6
 ![Trump tweet words](http://metrocosm.com/trump-tweet-words.png "Trump tweet words")
 Trump tweets: which are the words most likely to be from Android and most likely from iPhone?
 
-
+## Links
 
 The example we replicated in class, worth a read: [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/)
 
