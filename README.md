@@ -13,6 +13,8 @@ The example we replicated in class, worth a read: [Text analysis of Trump's twee
 
 [Stanford's Core NLP library](http://stanfordnlp.github.io/CoreNLP/) -- the standard programming library for natural language processing
 
+[D3 examples](https://github.com/MUSA-620-Fall-2017/d3)
+
 ## Assignment
 
 This assignment is not required. You may turn it in by email (galkamaxd at gmail) or in person at class.
