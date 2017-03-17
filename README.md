@@ -22,10 +22,11 @@ This assignment is not required. You may turn it in by email (galkamaxd at gmail
 
 ### Task:
 
-Choose 3 major brands that have an active presence on Twitter (e.g. Coca Cola, McDonald's, Apple, etc) and compare the sentiment of tweets that mentioning them. The sample size for each should be at least 1,000.
+Choose 3 major brands that have an active presence on Twitter (e.g. Coca Cola, McDonald's, Apple, etc) and compare the sentiment of tweets that mention them. The sample size for each should be at least 1,000.
 
-To collect the tweets, you may use either the Twitter streaming or rest API, searching for the brand's Twitter handle as a keyword (e.g. "@CocaCola"). Retweets of the brand should be excluded from the analysis (any tweet containing "rt" in the text)
+To collect the tweets, you may use either the Twitter streaming or rest API, searching for the brand's Twitter handle as a keyword (e.g. "searchTwitter('@CocaCola', n=4000)"). Retweets should be excluded from the analysis (any tweet where "isRetweet" = true).
 
+To classify the sentiment, use the syuzhet R package as we did in class. In that example, we classified the sentiment of individual words. In this case, the items you are classifying are the full text of each tweet. The command for running the classification should look something like this: get_nrc_sentiment(tweetDf$text).
 
 ### Deliverable:
 
